@@ -18,6 +18,7 @@ import folium
 
 print('\n---------------------------------------')
 print('TrueTech - Sentinel2 MSI cloud detection')
+print('Initialize...')
 
 # In[2]:
 
@@ -218,6 +219,7 @@ def display_cloud_layers(col):
 # In[21]:
 
 # --------------------------------------------------------------------------------------------------------
+print('\n---------------------------------------')
 print('Enter parameter!\n')
 # --------------------------------------------------------------------------------------------------------
 path_shapefile = input('Enter AOI:')
@@ -354,6 +356,7 @@ while True:
         break
 
     check_download = input("Enter 'y' to download the collection:")
+    print('\t=>', check_download)
 
     if check_download == 'y':
         # --------------------------------------------------------------------------------------------------------
